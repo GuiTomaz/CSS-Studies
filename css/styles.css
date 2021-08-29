@@ -2,31 +2,54 @@ body {
   margin: 0;
   text-align:center;
   font-family: 'Merriweather', serif;
+  font-size:1em;/* Define o padrão de font-size para os filhos*/
+
+
 }
 .prof{
   border-radius:50%;
 }
+
+
+/* 100% equals 16 px
+562.5 = 90px/16px*/
+/*1em = 16px = 100%
+rem refere-se ao root, ignora o font-size do parent, recomenda-se
+usar rem
+
+Quando se trata de margin, padding, recomenda-se usar px mesmo,
+preferencia, apenas. Pois fica mais preciso e menos confuso*/
 h1 {
-
-  margin-top:0;
+  font-size:5.625rem;
+  margin:50px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height:2;
 }
-
+a{
+  color:#11999E;
+  margin:30px 30px;
+}
 h2{
   font-family: 'Montserrat', sans-serif;
+  font-size:2.5rem;
+  color: #66BFBF;
 }
-
+.student{
+  font-weight: normal;
+}
 h3{
   font-family: 'Montserrat', sans-serif;
+  color:#11999E;
 }
 p {
   margin: 0;
-
+  color:#40514E;
 }
 
 .top-container {
   position:relative;
-  background-color: #f8f1f1;
+  background-color: #EAF6F6;
   padding-top:100px;
 }
 .stu {
@@ -45,3 +68,100 @@ p {
   left:300px;
   bottom:300px;
 }
+
+
+.skill-row{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align:left;
+  line-height:2;
+}
+
+
+.bottom-container{
+  background-color:#66BFBF;
+  padding:50px;
+}
+.bin-code{
+  width:25%;
+  float:left;
+  margin-right:30px;
+}
+hr{
+
+  width:4%;
+  border: 8px dotted;
+  border-style: none none dotted;
+  color:#EAF6F6;
+}
+.lang{
+  width:25%;
+  float:right;
+  margin-left:30px;
+}
+.profile{
+  width:50%;
+  margin:100px auto 100px auto;
+}
+.prof{
+    width:25%;
+}
+.contact-me{
+  margin:24px auto;
+  line-height:2;
+}
+
+.contact-me p{
+  
+}
+.rights{
+  margin-top:30px;
+  color:white;
+}
+
+.btn {
+   background: #70B1B3;
+   background-image: -webkit-linear-gradient(top, #70B1B3, #11999E);
+   background-image: -moz-linear-gradient(top, #70B1B3, #11999E);
+   background-image: -ms-linear-gradient(top, #70B1B3, #11999E);
+   background-image: -o-linear-gradient(top, #70B1B3, #11999E);
+   background-image: -webkit-gradient(to bottom, #70B1B3, #11999E);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 0 20px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #000000 1px;
+   background: #1CD2D9;
+   background-image: -webkit-linear-gradient(top, #1CD2D9, #1CD2D9);
+   background-image: -moz-linear-gradient(top, #1CD2D9, #1CD2D9);
+   background-image: -ms-linear-gradient(top, #1CD2D9, #1CD2D9);
+   background-image: -o-linear-gradient(top, #1CD2D9, #1CD2D9);
+   background-image: -webkit-gradient(to bottom, #1CD2D9, #1CD2D9);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+/*
+.code-skill-desc{
+  clear:left;
+}
+
+.lang-desc{
+  clear:right;
+}
+*/
+
+/*USE FLOAT ONLY FOR CASES WHEN YOU ARE WRAPPING TEXT*
