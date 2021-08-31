@@ -29,6 +29,11 @@ h1 {
 a{
   color:#11999E;
   margin:30px 30px;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#EAF6F6;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
@@ -112,11 +117,13 @@ hr{
 }
 
 .contact-me p{
-  
+
 }
 .rights{
   margin-top:30px;
-  color:white;
+  color:#EAF6F6;
+  font-size:0.75rem;
+
 }
 
 .btn {
